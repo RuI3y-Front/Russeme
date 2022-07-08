@@ -94,7 +94,6 @@ const hTwo=document.querySelector('.h2-title')
 const paragraph=document.querySelector('.paragraph')
 document.addEventListener("scroll", function (e) {
   let scrolloffset = window.pageYOffset;
-console.log(scrolloffset);
   if (scrolloffset <= page_pic_two) {
     img.forEach((e) => {
       e.classList.remove("go");
