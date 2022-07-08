@@ -973,13 +973,49 @@ padding-right: 4px;
         padding: 5px 0;
 
 }
+.fotter-div ul{
+    padding-top: 12px;
+}
 .fotter-div li{
     font-size: 13px;
     color: black;
+    margin: 4px;
+    cursor: pointer;
+
+}
+.statistics{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.menu-status{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.status{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+    .menu-status ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 
+.menu-status li{ 
+width: 45%;
+text-align: center;
+cursor: pointer;
+
+}
 
 
 
